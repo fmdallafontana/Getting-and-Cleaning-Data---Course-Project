@@ -1,4 +1,4 @@
-# Getting and Cleaning Data Course Project
+# Code Book
 
 This file describes the variables, the data, and the transformations or work that have been performed to clean up the data.
 
