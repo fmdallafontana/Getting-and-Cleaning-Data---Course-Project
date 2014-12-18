@@ -1,6 +1,6 @@
 # Code Book
 
-This file describes the variables, the data, and the transformations or work that have been performed to clean up the data.
+This file describes the variables, the data, and the transformations and work that have been performed to clean up the data.
 
 ### Raw data set collection
 
