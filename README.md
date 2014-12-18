@@ -35,3 +35,5 @@ You should create one R script called run_analysis.R that does the following.
 This script will export two files into the working directory with the tidy data set:
 - tidyDataset.txt
 - tidyDataset.csv
+
+Note: this R script includes steps for download the necesary files from the source. If you want you can download them to the working directory by your own. The script is constructed in order to skip these steps if you already have the files downloaded on the working directory.
