@@ -30,7 +30,7 @@ You should create one R script called run_analysis.R that does the following.
 
 ### Steps to get the tidy data set
 1. Open a R console and set the working directory you want to use: `setwd("directory")`
-2. Source run_analisys.R script (it will require the plyr package, if it has not been installed yet): `setwd("directory")`
+2. Source run_analisys.R script (it will require the plyr package, if it has not been installed yet): `source('run_analysis.R')`
 
 This script will export two files into the working directory with the tidy data set:
 - tidyDataset.txt
