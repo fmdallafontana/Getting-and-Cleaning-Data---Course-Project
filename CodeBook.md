@@ -30,6 +30,8 @@ The set of variables that were estimated from these signals are:
 
 ### Data transformation steps
 
+For cleaning the data and creating a tidy data set, the run_analysis.R script performs 5 steps described below.
+
 ##### 1. Merge the training and the test sets to create one data set
 
 Test and training data sets (X_train.txt, X_test.txt), subject ids files (subject_train.txt, subject_test.txt) and activity ids files (y_train.txt, y_test.txt) are merged to obtain a single data set. Variables are labelled with the names assigned by original collectors (features.txt).
