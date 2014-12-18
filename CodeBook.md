@@ -59,3 +59,6 @@ In this step the labels of the original variables are changed in order to repres
 
 The tidy data set is created averaging each measurement of the intermediate data set for each subject and each activity.
 Final data set is ordered in ascending order by subjects and activity, and exported to .txt and .csv files, called tidyDataset.txt and tidyDataset.csv respectively. It is consisted of 10299 observations and 69 variables.
+
+### References
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
