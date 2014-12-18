@@ -4,7 +4,6 @@
 
 # Download .zip file
 if (!file.exists("./Course Project")) {dir.create("./Course Project")}
-
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 if (!file.exists("./Course Project/getdata-projectfiles-UCI HAR Dataset.zip")) {
      download.file(fileUrl,destfile="./Course Project/getdata-projectfiles-UCI HAR Dataset.zip") }
