@@ -54,7 +54,7 @@ dataset <- cbind(subject,activity,data)
 ################################################################################################
 
 # Variable names with "mean()" or "std()"
-meanStdVars <- names(dataset)[grep("mean\\()|std\\()", names(dataset))]
+meanStdVars <- names(dataset)[grep("mean\\(\\)|std\\(\\)", names(dataset))]
 
 # Subsetting the data set
 selectedNames <- c("subject","id_activity",meanStdVars)
@@ -69,7 +69,7 @@ meanStdDataset <- dataset[,selectedNames]
 ################################################################################
 
 # Merging the activity labels to the id of the activities
-dataset2 <- merge(activity_labels,dataset,by.x="id_activity",by.y="id_activity",all=TRUE)
+dataset2 <- merge(activity_labels,meanStdDataset,by.x="id_activity",by.y="id_activity",all=TRUE)
 
 
 ###########################################################################
